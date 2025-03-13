@@ -1,14 +1,12 @@
 # House Price Prediction using Linear Regression
 
 ## Dataset Overview
-The dataset used in this project is the California Housing dataset derived from the 1990 U.S. census, using one row per census block group.  
-A block group is the smallest geographical unit for which the U.S. Census Bureau publishes sample data (a block group typically has a population of 600 to 3,000 people).  
-A household is a group of people residing within a home.  
-Since the average number of rooms and bedrooms in this dataset are provided per household, these columns may take surprisingly large values for block groups with few households and many empty houses, such as vacation resorts.  
-
-This dataset was obtained from the (StatLib)[https://www.dcc.fc.up.pt/~ltorgo/Regression/cal_housing.html] repository, and can be downloaded/loaded using the :func:`sklearn.datasets.fetch_california_housing` function.
-
-**Data Set Characteristics:**
+- The dataset used in this project is the California Housing dataset derived from the 1990 U.S. census, using one row per census block group.  
+- A block group is the smallest geographical unit for which the U.S. Census Bureau publishes sample data (a block group typically has a population of 600 to 3,000 people).  
+- A household is a group of people residing within a home.  
+- Since the average number of rooms and bedrooms in this dataset are provided per household, these columns may take surprisingly large values for block groups with few households and many empty houses, such as vacation resorts.  
+- This dataset was obtained from the [StatLib](https://www.dcc.fc.up.pt/~ltorgo/Regression/cal_housing.html) repository, and can be downloaded/loaded using the :func:`sklearn.datasets.fetch_california_housing` function.
+### Data Set Characteristics:
 - **Number of Instances:** 20640
 - **Number of Attributes:** 8 numeric, predictive attributes and the target
 - **Attribute Information:**
