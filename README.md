@@ -21,6 +21,7 @@ sklearn.datasets.fetch_california_housing
     - **AveOccup:**      average number of household members
     - **Latitude:**      block group latitude
     - **Longitude:**     block group longitude
+    - **MedHouseVal:**   median house value for California districts (**Target Variable**)
 - **Missing Attribute Values:** None  
 
 The target variable is the median house value for California districts, expressed in hundreds of thousands of dollars ($100,000).
